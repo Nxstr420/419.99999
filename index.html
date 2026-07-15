@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    
    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi App Tecnológica</title>
@@ -9,17 +10,34 @@
 </head>
 <body>
 <section class="seccion-media">
-  <!-- Imagen Local -->
-  <img src="imagenes/portada.jpg" alt="Imagen de mi proyecto" class="img-fluida">
-   <!-- Video de YouTube (Opcional) -->
+  <div class="galeria-vertical">
+    <img src="imagenes/foto.jpg" alt="Foto 1 del proyecto" class="img-proyecto">
+    <img src="imagenes/fototo.jpg" alt="Foto 2 del proyecto" class="img-proyecto">
+    <img src="imagenes/pizza.jpg" alt="Foto 3 del proyecto" class="img-proyecto">
+     <img src="imagenes/paralapp.avif" alt="Foto 4 del proyecto" class="img-proyecto">
+  </div>
+  
   <div class="video-contenedor">
-    <iframe src="<iframe width="560" height="315" src="https://www.youtube.com/embed/ugH5JY2dRRQ?si=2g1vGTiS-oSkBiEi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" frameborder="0" allowfullscreen></iframe>
+   
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Be6NldDPons?si=rRyMRwnTsSSr5ERQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </section>
+
 <div class="contenedor-app">
-    <header class="mi-header">
-        <h1>Panel de Control</h1>
-    </header>
+   <header class="mi-header">
+  <div class="barra-superior">
+    <h1>Mi Solución</h1>
+    <!-- El botón del menú hamburguesa -->
+    <button id="boton-menu" class="btn-menu">☰</button>
+  </div>
+  
+  <!-- Los enlaces de navegación que inicialmente estarán ocultos -->
+  <nav id="navegacion" class="menu-oculto">
+    <a href="index.html">🏠 Inicio</a>
+    <a href="#galeria">🖼️ Galería</a>
+    <a href="#contacto">📞 Soporte Técnico</a>
+  </nav>
+</header>
        <main class="contenido">
         <p>Selecciona una opción para continuar:</p>
         
